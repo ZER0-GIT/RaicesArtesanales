@@ -1,0 +1,74 @@
+html{ /*Contenido general del HTML*/
+    background-color: cad2c5;
+}
+
+/*Contenido la barra de navegación*/
+.nav {
+    background-color: 84A98C;
+    display: flex;
+    align-items: center;
+    padding: 15 15px;
+}
+
+.logo-box {
+    margin-right: 40px;
+}
+
+.logo {
+    height: 150px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+}
+/*Contenido del bloque de inicio*/
+.bloqueInicio{
+    display: block;
+    justify-content: center;
+}
+.bloqueInicio h1{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+/*Contenido del bloque de productos destacados*/
+.bloqueDestacado img{
+    width: 200;
+    height: 200;
+}
+.bloqueDestacado p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+.bloqueDestacado ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.bloqueDestacado li{
+    list-style: none;
+    display: block;
+    padding: 10px 10px;
+    background-color: 52796F;
+    color: black;
+}
+
+/*Contenido del footer*/
+footer{
+    background-color: 2F3E46;
+    color: white;
+}
