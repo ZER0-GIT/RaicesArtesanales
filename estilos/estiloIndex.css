@@ -34,13 +34,32 @@ html{ /*Contenido general del HTML*/
 }
 /*Contenido del bloque de inicio*/
 .bloqueInicio{
-    display: block;
+    display: flex;
     justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
 }
 .bloqueInicio h1{
-    font-size: 60px;
+    font-size: 120px;
     color: black;
     font-weight: bold;
+}
+.bloqueInicio h2{
+    font-size: 64px;
+    color: black;
+    font-weight: bold;
+}
+.bloqueInicio p{
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+.bloqueInicio input{
+    font-size: 32px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 /*Contenido del bloque de productos destacados*/
 .bloqueDestacado img{
@@ -71,4 +90,13 @@ html{ /*Contenido general del HTML*/
 footer{
     background-color: 2F3E46;
     color: white;
+}
+.contenidoFooter{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+.contenidoFooter ul{
+    list-style: none;
+    padding: 0;
 }
